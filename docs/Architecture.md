@@ -96,3 +96,4 @@ flowchart TB
    - Strict MIME type checks (`application/pdf`, `application/msword`, `application/vnd.openxmlformats-officedocument.wordprocessingml.document`).
    - File size ceiling enforced at 5MB.
    - Sanitized filenames prevent directory traversal exploits.
+

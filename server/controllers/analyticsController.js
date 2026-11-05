@@ -248,3 +248,4 @@ exports.getDetailedReports = async (req, res, next) => {
     next(error);
   }
 };
+

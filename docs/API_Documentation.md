@@ -291,3 +291,4 @@ All API endpoints reside under `/api` and return standardized JSON responses.
 ### 7.6 Clear All Notifications
 - **Endpoint**: `DELETE /api/notifications/clear-all`
 - **Access**: Private
+

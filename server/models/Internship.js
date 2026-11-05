@@ -96,3 +96,4 @@ internshipSchema.index({
 });
 
 module.exports = mongoose.model('Internship', internshipSchema);
+

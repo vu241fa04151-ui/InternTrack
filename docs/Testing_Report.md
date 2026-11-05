@@ -90,3 +90,4 @@ dist/assets/index-3OdDEky3.js   784.76 kB │ gzip: 218.09 kB
 3. **Resume Document Upload**: Tested with PDF/DOCX validation, 5MB file ceiling, and instant preview link.
 4. **CSV Export**: Verified client-side file generation producing formatted `.csv` with all application fields.
 5. **Toast Notifications**: Verified auto-dismissal after 4 seconds and color-coded status styling.
+

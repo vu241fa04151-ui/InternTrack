@@ -40,3 +40,4 @@ const Badge = ({ children, status = 'default', size = 'sm', className = '' }) =>
 };
 
 export default Badge;
+

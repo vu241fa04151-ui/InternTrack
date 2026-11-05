@@ -18,3 +18,4 @@ router.route('/:id/read').put(markAsRead);
 router.route('/:id').delete(deleteNotification);
 
 module.exports = router;
+

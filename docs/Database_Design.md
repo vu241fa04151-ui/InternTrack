@@ -244,3 +244,4 @@ Stores in-app reminders and milestone notices.
 - `SavedInternship`: Compound unique index `{ user: 1, internship: 1 }`
 - `Interview`: `{ user: 1, interviewDate: 1 }`
 - `Notification`: Compound index `{ user: 1, isRead: 1, createdAt: -1 }`
+

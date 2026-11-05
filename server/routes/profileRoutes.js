@@ -18,3 +18,4 @@ router.delete('/resume', deleteResume);
 router.put('/password', updatePassword);
 
 module.exports = router;
+

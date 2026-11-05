@@ -12,3 +12,4 @@ router.get('/dashboard', getDashboardStats);
 router.get('/reports', getDetailedReports);
 
 module.exports = router;
+

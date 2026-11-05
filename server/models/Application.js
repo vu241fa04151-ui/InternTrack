@@ -113,3 +113,4 @@ applicationSchema.index({ user: 1, applicationDate: -1 });
 applicationSchema.index({ user: 1, deadline: 1 });
 
 module.exports = mongoose.model('Application', applicationSchema);
+

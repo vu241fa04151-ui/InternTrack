@@ -28,3 +28,4 @@ const savedInternshipSchema = new mongoose.Schema(
 savedInternshipSchema.index({ user: 1, internship: 1 }, { unique: true });
 
 module.exports = mongoose.model('SavedInternship', savedInternshipSchema);
+

@@ -79,3 +79,4 @@ const interviewSchema = new mongoose.Schema(
 interviewSchema.index({ user: 1, interviewDate: 1 });
 
 module.exports = mongoose.model('Interview', interviewSchema);
+

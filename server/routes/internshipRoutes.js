@@ -16,3 +16,4 @@ router.put('/:id', protect, updateInternship);
 router.delete('/:id', protect, deleteInternship);
 
 module.exports = router;
+

@@ -92,3 +92,4 @@
 - **Security**: OWASP compliance, Helmet security headers, CORS origin protection, JWT bearer authentication, input sanitization, parameterized queries.
 - **Reliability**: Graceful error boundary, centralized Express error handler, auto-reconnecting MongoDB client.
 - **Responsive Design**: Mobile-first fluid layout compatible with desktop, tablet, and mobile viewport widths.
+

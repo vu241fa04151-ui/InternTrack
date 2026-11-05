@@ -17,3 +17,4 @@ router.route('/:id').get(getApplicationById).put(updateApplication).delete(delet
 router.route('/:id/status').patch(updateStatus);
 
 module.exports = router;
+
