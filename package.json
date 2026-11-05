@@ -1,0 +1,28 @@
+{
+  "name": "interntrack-monorepo",
+  "version": "1.0.0",
+  "description": "InternTrack - Student Internship & Opportunity Tracker (MERN Stack)",
+  "private": true,
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "seed": "node server/utils/seeder.js",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0"
+  },
+  "keywords": [
+    "internship-tracker",
+    "mern-stack",
+    "student-portal",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "InternTrack Team",
+  "license": "MIT"
+}
