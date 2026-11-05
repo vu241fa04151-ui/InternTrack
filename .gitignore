@@ -9,4 +9,7 @@ uploads/resumes/*
 npm-debug.log*
 .vscode/
 .idea/
+# MongoDB local database files
+server/data/db/
+server/data/
 
